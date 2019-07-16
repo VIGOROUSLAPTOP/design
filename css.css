@@ -1,0 +1,100 @@
+@font-face{
+    font-family: AvoBold;
+    src: url(fonts/SVN-Avo-bold.ttf);
+}
+
+@font-face{
+    font-family: Avo;
+    src: url(fonts/SVN-Avo.ttf);
+}
+
+.fontAvoBold{
+    font-family: AvoBold;
+}
+
+.fontAvo{
+    font-family: Avo;
+}
+
+.parent {
+    overflow-x: hidden;
+}
+
+.divContentFirst{
+    background-color: #f4eee5;
+    position: relative;
+
+}
+
+.divContentSecond{
+    background-color: #10000a;
+    position: relative;
+
+}
+
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border: thin solid #a9aba9;
+}
+
+.rowButtonLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.rowButtonRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btn1 {
+    background-color: #fffffb !important;
+    margin-bottom: 18px;
+}
+
+.btn2 {
+    background-color: #e7e7e8 !important;
+}
+
+.btn3 {
+    background-color: #7aceee !important;
+    margin-bottom: 18px;
+}
+
+.btn4 {
+    background-color: #f9c5dc !important;
+}
+
+.btn5 {
+    background-color: #ff00a2 !important;
+}
+
+.btn6 {
+    background-color: #00aeff !important;
+}
