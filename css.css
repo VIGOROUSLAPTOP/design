@@ -1,18 +1,18 @@
-@font-face{
+@font-face {
     font-family: AvoBold;
     src: url(fonts/SVN-Avo-bold.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: Avo;
     src: url(fonts/SVN-Avo.ttf);
 }
 
-.fontAvoBold{
+.fontAvoBold {
     font-family: AvoBold;
 }
 
-.fontAvo{
+.fontAvo {
     font-family: Avo;
 }
 
@@ -20,18 +20,15 @@
     overflow-x: hidden;
 }
 
-.divContentFirst{
+.divContentFirst {
     background-color: #f4eee5;
     position: relative;
-
 }
 
-.divContentSecond{
+.divContentSecond {
     background-color: #10000a;
     position: relative;
-
 }
-
 
 .resp-container {
     position: relative;
@@ -97,4 +94,16 @@
 
 .btn6 {
     background-color: #00aeff !important;
+}
+
+.btn1,
+.btn2,
+.btn5 {
+    margin-right: 20px;
+}
+
+.btn3,
+.btn4,
+.btn6 {
+    margin-left: 20px;
 }
